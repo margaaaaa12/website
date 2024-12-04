@@ -1,0 +1,128 @@
+/*padding is the spacing outside the element*/
+/*margin is the spacing inside the element*/
+
+
+
+
+/* Enables smooth scrolling when navigating between sections */
+html {
+    scroll-behavior: smooth;
+    box-sizing: border-box; /* Ensures consistent box-sizing throughout the page */
+}
+
+/* General styling for the body of the page */
+body {
+    margin: 0; /* Removes default margin from body */
+    font-family: 'Arial', Helvetica, sans-serif; /* Sets the font for the page */
+    background-color: #353535; /* Light grey background for the page */
+    color: #333; /* Dark grey text color for contrast */
+}
+
+/* Ensures all elements have consistent padding and margin */
+* {
+    padding: 0;
+    margin: 1;
+    box-sizing: border-box; /* Ensures consistent box-sizing across all elements */
+}
+
+/* Styling for the navigation bar */
+nav {
+    position: fixed; /* Keeps the navbar fixed at the top of the page */
+    top: 0; /* Aligns the navbar to the top */
+    width: 100%; /* Navbar spans the full width of the viewport */
+    background-color: #1e1e1e; /* Dark background color for the navbar */
+    display: flex;   /* Makes the hrefs horizontal*/
+    justify-content: right; /* Aligns the navbar items to the right */
+    padding: 20px 0; /* Adds vertical padding to the navbar */
+    z-index: 1000; /* Ensures the navbar stays on top of other content */
+}
+
+/* Styling for the unordered list inside the navbar */
+nav ul {
+    display: flex; /* Makes the hrefs horizontal*/
+    justify-content: center; /* Centers the list items horizontally */
+    list-style: none; /* Removes default bullet points from the list */
+}
+
+/* Styling for each list item inside the navbar */
+nav ul li {
+    margin: 0 20px; /* Adds spacing between each list item */
+    transition: 0.3s; /* Smooth transition effect applied when hovered */
+}
+
+/* Styling for the href tags inside the navbar */
+nav a {
+    color: #fff; /* White text color for the links */
+    text-decoration: none; /* Removes underline from the links */
+    font-size: 16px; /* Sets the font size for the links */
+    font-weight: bold; /* Makes the text bold */
+    letter-spacing: 1px; /* Adds spacing between letters for readability */
+}
+
+/* Hover effect for the <li> elements */
+li:hover {
+    transform: scale(1.1); /* Scales up the list item to 110% on hover */
+}
+
+/* Adds padding to the main content area to avoid overlap with the navbar */
+#whole {
+    padding-top: 100px; /* Adds padding on top to avoid overlap with fixed navbar */
+    padding-left: 20px; /* Adds left padding */
+    padding-right: 20px; /* Adds right padding */
+}
+
+/* Styling for each section of the content */
+.section {
+    margin: 50px auto; /* Adds margin to space out sections */
+    padding: 40px; /* Adds padding inside each section */
+    max-width: 1200px; /* Sets a maximum width for sections */
+    background-color: rgb(247, 240, 219);
+    border-radius: 50px; /* Rounds the corners of the sections */
+    box-shadow: 0 4px 10px rgba(247, 240, 219, 0.9); /* Adds subtle shadow to sections */
+    scroll-margin-top: 50px; /* Ensures smooth scrolling offsets for anchor links */
+   
+}
+
+/* Styling for the main heading (h1) */
+h1 {
+    font-size: 72px; /* Large font size for the main heading */
+    text-align: center; /* Centers the text */
+    color: #2a0639; /* Purple color for the heading */
+    font-weight: 700; /* Makes the heading bold */
+    letter-spacing: 2px; /* Adds spacing between letters */
+}
+
+/* Styling for secondary headings (h2) */
+h2 {
+    font-size: 40px; /* Sets font size for secondary headings */
+    color: #090521; /* Dark blue-grey color for the subheadings */
+    margin-bottom: 20px; /* Adds space below the heading */
+    font-weight: 600; /* Sets font weight to bold */
+}
+
+/* Style for the services */
+h3 {
+    font-size: 40px;
+    color: #090521; /* Light-grey color for the services*/
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+/* Styling for paragraphs */
+p {
+    font-size: 18px; /* Sets font size for paragraphs */
+    line-height: 1.6; /* Increases line height for better readability */
+    color: #140101; /* Grey color for text */
+}
+
+img {
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+
